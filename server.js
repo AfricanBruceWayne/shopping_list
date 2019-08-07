@@ -1,5 +1,7 @@
 const express       = require('express');
 const mongoose      = require('mongoose');
+const path          = require('path');
+const config        = require('config');
 const bodyParser    = require('body-parser');
 
 const items = require("./routes/api/items");
@@ -14,7 +16,9 @@ const db = require('./config/keys').mongoURI;
 
 // Connect to Mongo
 mongoose
-.connect(db)
+.connect(db, {
+   
+})
 .then(() => console.log("MongoDB Connected..."))
 .catch(err => console.log(err));
 
