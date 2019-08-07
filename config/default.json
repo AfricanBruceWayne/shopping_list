@@ -1,10 +1,4 @@
 {
-<<<<<<< HEAD
     "mongoURI": "mongodb://thasi:thasi0708@ds121301.mlab.com:21301/mern_shoppingzar",
     "jwtSecret": "Jay_Z_Shawn_Carter"
 }
-=======
-  "mongoURI": "ENTER_YOUR_MONGO_URI",
-  "jwtSecret": "si_myjwtSecret"
-}
->>>>>>> e258399d6d20d3093cb7de144ea739b8caa88d5f
