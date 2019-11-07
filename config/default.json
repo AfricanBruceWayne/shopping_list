@@ -1,4 +1,4 @@
 {
-    "mongoURI": "mongodb://thasi:thasi0708@ds121301.mlab.com:21301/mern_shoppingzar",
-    "jwtSecret": "jay_z_Shawn_Carter"
+    "mongoURI": "mongodb://<username>:<password>@ds121301.mlab.com:21301/mern_shoppingzar",
+    "jwtSecret": "my_Secret"
 }
